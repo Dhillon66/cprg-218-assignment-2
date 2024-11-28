@@ -1,6 +1,8 @@
 button{
-	border-radius:10px;
-	background-color:#d9043d;
+	background-color:#938e68;
+	color:white;
+	padding:10px;
+	margin:6px;
 }
 .buttonclick{
 	background-color:#97bf04;
@@ -19,29 +21,54 @@ header{
 header h2{
 	width:50%;
 	margin-top:0px;
+	color:white;
+	font-size:36px;
 }
 #buttons{
-	float:center;
 	width:50%;
 	
-}
-button{
-	margin:6px;
-	float:right;
 }
 #box{
 	display:flex;
 	background-color:#e2a4a4;
+	margin:20px;
+	margin-top:0px;
+	box-shadow: 2px 2px 6px 6px black;
 }
 #image{
 	width:50%;
 	height:600px;
 	margin:20px;
+	border:2px solid black;
 }
 #product_description{
 	margin-top:20px;
 	margin-right:20px;
 	margin-bottom:20px;
-	border:2px solid green;
 	width:50%;
+	color:white;
+	font-size:26px;
+}
+@media screen and (max-width:600px){
+	header{
+		display:block;
+	}
+	header h2{
+		width:100%;
+		text-align:center;
+	}
+	#buttons{
+		width:100%;
+	}
+	#box{
+		display:block;
+		overflow:hidden;
+	}
+	#image{
+		width:100%;
+		margin:0px;
+	}
+	#product_description{
+		width:100%;
+	}
 }
