@@ -1,36 +1,36 @@
 
 function myFunction() {
-  document.getElementById("image").src="images/iphone-16-promax.png";
-  document.getElementById("first").className='hh';
-   document.getElementById("second").className='kk';
-    document.getElementById("third").className='kk';
-     document.getElementById("fourth").className='kk';
-     document.getElementById("product_description").innerHTML="Iphone 16 Pro Max";
+  document.getElementById("image").src="images/pomeranian.jpg";
+  document.getElementById("first").className='buttonclick';
+   document.getElementById("second").className='buttonprevious';
+    document.getElementById("third").className='buttonprevious';
+     document.getElementById("fourth").className='buttonprevious';
+     document.getElementById("product_description").innerHTML="Pomeranian";
 } 
 function myFunctionsecond() {
-  document.getElementById("image").src="images/iphone-16-pro.png";
-  document.getElementById("second").className='hh';
-  document.getElementById("first").className='kk';
-  document.getElementById("third").className='kk';
-  document.getElementById("fourth").className='kk';
-  document.getElementById("product_description").innerHTML="Iphone 16 Pro";
+  document.getElementById("image").src="images/gretriever.jpg";
+  document.getElementById("second").className='buttonclick';
+  document.getElementById("first").className='buttonprevious';
+  document.getElementById("third").className='buttonprevious';
+  document.getElementById("fourth").className='buttonprevious';
+  document.getElementById("product_description").innerHTML="Golden Retriever";
   
 }
 function myFunctionthird() {
-  document.getElementById("image").src="images/iphone-16.png";
-  document.getElementById("third").className='hh';
-   document.getElementById("first").className='kk';
-    document.getElementById("second").className='kk';
-     document.getElementById("fourth").className='kk';
-     document.getElementById("product_description").innerHTML="Iphone 16";
+  document.getElementById("image").src="images/husky.jpg";
+  document.getElementById("third").className='buttonclick';
+   document.getElementById("first").className='buttonprevious';
+    document.getElementById("second").className='buttonprevious';
+     document.getElementById("fourth").className='buttonprevious';
+     document.getElementById("product_description").innerHTML="Husky";
 }
 function myFunctionfourth() {
-  document.getElementById("image").src="images/iphone-16-plus.png";
-  document.getElementById("fourth").className='hh';
-   document.getElementById("first").className='kk';
-    document.getElementById("second").className='kk';
-     document.getElementById("third").className='kk';
-     document.getElementById("product_description").innerHTML="Iphone 16 Plus";
+  document.getElementById("image").src="images/shitzu.jpg";
+  document.getElementById("fourth").className='buttonclick';
+   document.getElementById("first").className='buttonprevious';
+    document.getElementById("second").className='buttonprevious';
+     document.getElementById("third").className='buttonprevious';
+     document.getElementById("product_description").innerHTML="Shitzu";
 }
 
 

@@ -2,16 +2,16 @@ button{
 	border-radius:10px;
 	background-color:#d9043d;
 }
-.hh{
+.buttonclick{
 	background-color:#97bf04;
 }
-.kk{
+.previous{
 	background-color:#d9043d;
 }
 body{
 	margin-left:26px;
 	margin-right:26px;
-	background-color:#F1F0E8;
+	background-color:#a4aee2;
 }
 header{
 	display:flex;
@@ -21,7 +21,7 @@ header h2{
 	margin-top:0px;
 }
 #buttons{
-	float:right;
+	float:center;
 	width:50%;
 	
 }
@@ -31,12 +31,17 @@ button{
 }
 #box{
 	display:flex;
+	background-color:#e2a4a4;
 }
 #image{
 	width:50%;
+	height:600px;
+	margin:20px;
 }
 #product_description{
-	margin-left:0px;
+	margin-top:20px;
+	margin-right:20px;
+	margin-bottom:20px;
 	border:2px solid green;
 	width:50%;
 }
