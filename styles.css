@@ -1,0 +1,42 @@
+button{
+	border-radius:10px;
+	background-color:#d9043d;
+}
+.hh{
+	background-color:#97bf04;
+}
+.kk{
+	background-color:#d9043d;
+}
+body{
+	margin-left:26px;
+	margin-right:26px;
+	background-color:#F1F0E8;
+}
+header{
+	display:flex;
+}
+header h2{
+	width:50%;
+	margin-top:0px;
+}
+#buttons{
+	float:right;
+	width:50%;
+	
+}
+button{
+	margin:6px;
+	float:right;
+}
+#box{
+	display:flex;
+}
+#image{
+	width:50%;
+}
+#product_description{
+	margin-left:0px;
+	border:2px solid green;
+	width:50%;
+}
